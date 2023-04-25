@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./css/style.css";
 
 const FindCity = () => {
-    const [location, setLocation] = useState("");
+    const [location, setLocation] = useState('Pune');
     const [weather, setWeather] = useState(null);
     const [error, setError] = useState(null);
 
